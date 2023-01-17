@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: danielbeck
+Build-Jdk: 1.8.0_121
+Extension-Name: sitemonitor
+Specification-Title: Monitors web site up/down status.
+Implementation-Title: sitemonitor
+Implementation-Version: 0.6
+Group-Id: org.jvnet.hudson.plugins
+Short-Name: sitemonitor
+Long-Name: SiteMonitor Plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/SiteMonitor+Plugin
+Plugin-Version: 0.6
+Hudson-Version: 1.650
+Jenkins-Version: 1.650
+Plugin-Developers: Cliffano Subagio:cliffano:blah@cliffano.com,Francis
+ co Hernandez Suarez:onuba:
+

@@ -1,0 +1,18 @@
+Started by upstream project "[8mha:////4DaRXbJrwopkp8cLsfRYKbgM2v0VaAn4dgr04GmGH4rFAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYB/az8JP2A0pwc55zM1LwSfQBec9ehxQAAAA==[0mPullClient" build number [8mha:////4Ng6BaFOky86iZ3pCtbvf0FTIW2BCBADc0RHhMqQ3fFuAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBkH9rPwk/YDSnBznnMzUvBJ9CwDnwczHxgAAAA==[0m8
+originally caused by:
+ Started by an SCM change
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/PullClient
+[PullClient] $ /bin/sh -xe /tmp/jenkins10193613350296088188.sh
++ ls
+build
+node_modules
+package-lock.json
+package.json
+public
+src
+tsconfig.json
++ npm install
+Terminated
+Build was aborted
+Finished: ABORTED

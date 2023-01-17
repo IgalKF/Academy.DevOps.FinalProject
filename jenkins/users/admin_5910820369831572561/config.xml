@@ -48,5 +48,16 @@
       </roles>
       <timestamp>1673614484487</timestamp>
     </jenkins.security.LastGrantedAuthoritiesProperty>
+    <hudson.plugins.emailext.watching.EmailExtWatchAction_-UserProperty plugin="email-ext@2.93">
+      <triggers/>
+    </hudson.plugins.emailext.watching.EmailExtWatchAction_-UserProperty>
+    <hudson.plugins.favorite.user.FavoriteUserProperty plugin="favorite@2.4.1">
+      <data class="concurrent-hash-map">
+        <entry>
+          <string>monitoring</string>
+          <boolean>true</boolean>
+        </entry>
+      </data>
+    </hudson.plugins.favorite.user.FavoriteUserProperty>
   </properties>
 </user>

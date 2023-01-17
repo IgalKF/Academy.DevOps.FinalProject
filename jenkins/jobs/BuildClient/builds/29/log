@@ -1,0 +1,37 @@
+Started by user [8mha:////4EQhDvTOCdiaP0OvoT42amVSe4DyBUQ7OxtZrUJO3F2EAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/PullClient
+[PullClient] $ /bin/sh -xe /tmp/jenkins4776039875093860346.sh
++ ls
+build
+node_modules
+package-lock.json
+package.json
+public
+src
+tsconfig.json
++ npm install
+
+up to date, audited 1452 packages in 17s
+
+231 packages are looking for funding
+  run `npm fund` for details
+
+6 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
++ npm run build
+
+> client-application@0.1.0 build
+> react-scripts build
+
+Failed to compile.
+
+EIO: i/o error, unlink '/var/jenkins_home/workspace/PullClient/build/ngrok.exe'
+
+
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

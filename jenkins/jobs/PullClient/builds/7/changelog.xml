@@ -1,0 +1,10 @@
+commit 23934829f05f3fabc96889f8b7cd6bbdac2fcd78
+tree 4920b151a89ab4d6f5d6f1a106edf10834473b3c
+parent 44f318e0f8bd29e09a367d011ff9c0f768cf4a4e
+author Igal Khalfin <Igal.Khalfin@projectverte.com> 2023-01-13 16:47:23 +0200
+committer Igal Khalfin <Igal.Khalfin@projectverte.com> 2023-01-13 16:47:23 +0200
+
+    update
+
+
+:100644 100644 034ddcce5cd720639650106e049ac2bc664c6bca 148e6e482777d8b3189599d0995c324ccc09d6c6 M	src/App.tsx

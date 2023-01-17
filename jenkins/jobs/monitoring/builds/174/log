@@ -1,0 +1,9 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/monitoring
+java.net.ConnectException: Connection refused (Connection refused) - Connection refused (Connection refused)
+URL: http://127.0.0.1:8081/IgalNisanDanielNissim/, response code: null, status: EXCEPTION
+Build step 'Monitor Site' changed build result to FAILURE
+Build step 'Monitor Site' marked build as failure
+Sending e-mails to: danielreznik67@gmail.com
+Finished: FAILURE

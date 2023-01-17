@@ -1,0 +1,45 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.triggers.TimerTrigger_-TimerTriggerCause/>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.plugins.sitemonitor.SiteMonitorRootAction plugin="sitemonitor@0.6">
+      <mResults>
+        <hudson.plugins.sitemonitor.model.Result>
+          <mSite>
+            <mUrl>http://192.168.5.115:8081/IgalNisanDanielNissim/</mUrl>
+            <timeout>30</timeout>
+            <successResponseCodes/>
+            <admitInsecureSslCerts>false</admitInsecureSslCerts>
+          </mSite>
+          <mResponseCode>200</mResponseCode>
+          <mStatus>UP</mStatus>
+          <mNote>[UP] </mNote>
+        </hudson.plugins.sitemonitor.model.Result>
+      </mResults>
+    </hudson.plugins.sitemonitor.SiteMonitorRootAction>
+    <hudson.tasks.MailMessageIdAction plugin="mailer@438.v02c7f0a_12fa_4">
+      <messageId>&lt;649274030.1.1673894580924@aa68dddb744f&gt;</messageId>
+    </hudson.tasks.MailMessageIdAction>
+  </actions>
+  <queueId>150</queueId>
+  <timestamp>1673894580663</timestamp>
+  <startTime>1673894580701</startTime>
+  <result>SUCCESS</result>
+  <duration>2509</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/jenkins_home/workspace/monitoring</workspace>
+  <hudsonVersion>2.375</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+</build>

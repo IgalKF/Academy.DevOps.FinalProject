@@ -1,0 +1,20 @@
+Started by an SCM change
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/PullClient
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/PullClient/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/IgalKF/Academy.DevOps.FinalProject.ClientApplication.git # timeout=10
+Fetching upstream changes from https://github.com/IgalKF/Academy.DevOps.FinalProject.ClientApplication.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --tags --force --progress -- https://github.com/IgalKF/Academy.DevOps.FinalProject.ClientApplication.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 23934829f05f3fabc96889f8b7cd6bbdac2fcd78 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 23934829f05f3fabc96889f8b7cd6bbdac2fcd78 # timeout=10
+Commit message: "update"
+ > git rev-list --no-walk 44f318e0f8bd29e09a367d011ff9c0f768cf4a4e # timeout=10
+Triggering a new build of [8mha:////4ACXWY9flT2e0ePsqxGwMICL20HOCN2gxzMpt9kWOs3lAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/az8JH2n0sycFOeczNS8En0AvI+nQ8YAAAA=[0mBuildClient
+Finished: SUCCESS

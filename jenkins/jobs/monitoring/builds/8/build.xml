@@ -1,0 +1,43 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.plugins.sitemonitor.SiteMonitorRootAction plugin="sitemonitor@0.6">
+      <mResults>
+        <hudson.plugins.sitemonitor.model.Result>
+          <mSite>
+            <mUrl>https://d22e-77-137-78-66.eu.ngrok.io/IgalNisanDanielNissim/</mUrl>
+            <successResponseCodes/>
+            <admitInsecureSslCerts>false</admitInsecureSslCerts>
+          </mSite>
+          <mResponseCode>200</mResponseCode>
+          <mStatus>UP</mStatus>
+          <mNote>[UP] </mNote>
+        </hudson.plugins.sitemonitor.model.Result>
+      </mResults>
+    </hudson.plugins.sitemonitor.SiteMonitorRootAction>
+  </actions>
+  <queueId>15</queueId>
+  <timestamp>1673803930898</timestamp>
+  <startTime>1673803930950</startTime>
+  <result>SUCCESS</result>
+  <duration>461</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/jenkins_home/workspace/monitoring</workspace>
+  <hudsonVersion>2.375</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+</build>

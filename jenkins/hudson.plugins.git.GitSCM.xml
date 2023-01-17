@@ -1,6 +1,6 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <hudson.plugins.git.GitSCM_-DescriptorImpl plugin="git@5.0.0">
-  <globalConfigName></globalConfigName>
+  <globalConfigName>admin</globalConfigName>
   <globalConfigEmail></globalConfigEmail>
   <createAccountBasedOnEmail>false</createAccountBasedOnEmail>
   <useExistingAccountWithSameEmail>false</useExistingAccountWithSameEmail>

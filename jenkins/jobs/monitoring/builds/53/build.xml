@@ -1,0 +1,46 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.plugins.sitemonitor.SiteMonitorRootAction plugin="sitemonitor@0.6">
+      <mResults>
+        <hudson.plugins.sitemonitor.model.Result>
+          <mSite>
+            <mUrl>http://19.168.5.115:8081/IgalNisanDanielNissim/</mUrl>
+            <timeout>30</timeout>
+            <successResponseCodes/>
+            <admitInsecureSslCerts>false</admitInsecureSslCerts>
+          </mSite>
+          <mStatus>EXCEPTION</mStatus>
+          <mNote>[EXCEPTION] java.net.ConnectException: Connection refused (Connection refused) - Connection refused (Connection refused)</mNote>
+        </hudson.plugins.sitemonitor.model.Result>
+      </mResults>
+    </hudson.plugins.sitemonitor.SiteMonitorRootAction>
+    <hudson.tasks.MailMessageIdAction plugin="mailer@438.v02c7f0a_12fa_4">
+      <messageId>&lt;1818051101.0.1673885094604@aa68dddb744f&gt;</messageId>
+    </hudson.tasks.MailMessageIdAction>
+  </actions>
+  <queueId>12</queueId>
+  <timestamp>1673885072912</timestamp>
+  <startTime>1673885072975</startTime>
+  <result>FAILURE</result>
+  <duration>24327</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/jenkins_home/workspace/monitoring</workspace>
+  <hudsonVersion>2.375</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+</build>

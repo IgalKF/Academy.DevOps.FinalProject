@@ -1,6 +1,13 @@
 version: '3.4'
 
 services:
+  datadog:
+    environment: 
+    - DD_API_KEY=16166d90b1e5add6b6165250b6bdbaf68b36d315
+    image: gcr.io/datadoghq/agent
+    ports: 
+    - 8125:8125
+    - 8126:8126
   selenium:
     image: selenium/standalone-chrome
     ports:

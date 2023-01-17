@@ -1,0 +1,12 @@
+Started on Jan 13, 2023, 3:10:00 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision 23934829f05f3fabc96889f8b7cd6bbdac2fcd78 (refs/remotes/origin/main)
+The recommended git tool is: NONE
+No credentials specified
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git ls-remote -h -- https://github.com/IgalKF/Academy.DevOps.FinalProject.ClientApplication.git # timeout=10
+Found 1 remote heads on https://github.com/IgalKF/Academy.DevOps.FinalProject.ClientApplication.git
+[poll] Latest remote head revision on refs/heads/main is: 7c5530e16f0ffe03ee70d7e87d2365f532e36a72
+Done. Took 0.92 sec
+Changes found

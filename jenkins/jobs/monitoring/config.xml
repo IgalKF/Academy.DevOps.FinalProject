@@ -1,0 +1,47 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers>
+    <jenkins.triggers.ReverseBuildTrigger>
+      <spec></spec>
+      <upstreamProjects>BuildClient, </upstreamProjects>
+      <threshold>
+        <name>FAILURE</name>
+        <ordinal>2</ordinal>
+        <color>RED</color>
+        <completeBuild>true</completeBuild>
+      </threshold>
+    </jenkins.triggers.ReverseBuildTrigger>
+    <hudson.triggers.TimerTrigger>
+      <spec>* * * * *</spec>
+    </hudson.triggers.TimerTrigger>
+  </triggers>
+  <concurrentBuild>false</concurrentBuild>
+  <builders/>
+  <publishers>
+    <hudson.plugins.sitemonitor.SiteMonitorRecorder plugin="sitemonitor@0.6">
+      <mSites>
+        <hudson.plugins.sitemonitor.model.Site>
+          <mUrl>http://192.168.5.115:8081/IgalNisanDanielNissim/</mUrl>
+          <timeout>30</timeout>
+          <successResponseCodes/>
+          <admitInsecureSslCerts>false</admitInsecureSslCerts>
+        </hudson.plugins.sitemonitor.model.Site>
+      </mSites>
+    </hudson.plugins.sitemonitor.SiteMonitorRecorder>
+    <hudson.tasks.Mailer plugin="mailer@438.v02c7f0a_12fa_4">
+      <recipients>danielreznik67@gmail.com</recipients>
+      <dontNotifyEveryUnstableBuild>false</dontNotifyEveryUnstableBuild>
+      <sendToIndividuals>false</sendToIndividuals>
+    </hudson.tasks.Mailer>
+  </publishers>
+  <buildWrappers/>
+</project>

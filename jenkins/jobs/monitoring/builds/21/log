@@ -1,0 +1,7 @@
+Started by upstream project "[8mha:////4ACXWY9flT2e0ePsqxGwMICL20HOCN2gxzMpt9kWOs3lAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/az8JH2n0sycFOeczNS8En0AvI+nQ8YAAAA=[0mBuildClient" build number [8mha:////4C+uRsntRgqMy/CfL4vmN3L5IQnGYA1r0j//KhY/Wx2aAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZh/az8JH2n0sycFOeczNS8En1jUwAwUHKHyAAAAA==[0m35
+originally caused by:
+ Started by user [8mha:////4EQhDvTOCdiaP0OvoT42amVSe4DyBUQ7OxtZrUJO3F2EAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/monitoring
+URL: http://172.30.144.1:8081/IgalNisanDanielNissim/, response code: 200, status: UP
+Finished: SUCCESS

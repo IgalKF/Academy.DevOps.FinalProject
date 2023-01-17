@@ -1,0 +1,9 @@
+Started by user [8mha:////4EQhDvTOCdiaP0OvoT42amVSe4DyBUQ7OxtZrUJO3F2EAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/monitoring
+java.net.ConnectException: Connection refused (Connection refused) - Connection refused (Connection refused)
+URL: http://localhost:8081/IgalNisanDanielNissim/, response code: null, status: EXCEPTION
+Build step 'Monitor Site' changed build result to FAILURE
+Build step 'Monitor Site' marked build as failure
+Sending e-mails to: danielreznik67@gmail.com
+Finished: FAILURE

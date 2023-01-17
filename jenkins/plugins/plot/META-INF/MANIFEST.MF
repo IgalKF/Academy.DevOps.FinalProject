@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 11
+Specification-Title: Plot plugin
+Specification-Version: 2.1
+Implementation-Title: Plot plugin
+Implementation-Version: 2.1.12
+Group-Id: org.jenkins-ci.plugins
+Short-Name: plot
+Long-Name: Plot plugin
+Url: https://github.com/jenkinsci/plot-plugin
+Plugin-Version: 2.1.12
+Hudson-Version: 2.346.3
+Jenkins-Version: 2.346.3
+Plugin-Dependencies: workflow-step-api:639.v6eca_cd8c04a_a_,junit:1166.v
+ a_436e268e972,matrix-project:772.v494f19991984
+Plugin-Developers: Nigel Daley:nidaley:,Eric Nielsen:ericbn:,Veaceslav G
+ aidarji:vgaidarji:veaceslav.gaidarji@gmail.com
+Plugin-ScmUrl: https://github.com/jenkinsci/plot-plugin
+

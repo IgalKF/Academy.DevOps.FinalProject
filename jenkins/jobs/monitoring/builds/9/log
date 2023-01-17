@@ -1,0 +1,7 @@
+Started by user [8mha:////4EQhDvTOCdiaP0OvoT42amVSe4DyBUQ7OxtZrUJO3F2EAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/monitoring
+URL: https://d22e-77-137-78-66.eu.ngrok.io/IgalNisanDanielNissim/, response code: 404, status: ERROR
+Build step 'Monitor Site' changed build result to FAILURE
+Build step 'Monitor Site' marked build as failure
+Finished: FAILURE

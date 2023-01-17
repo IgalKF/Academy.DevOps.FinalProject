@@ -1,0 +1,42 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.triggers.TimerTrigger_-TimerTriggerCause/>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.plugins.sitemonitor.SiteMonitorRootAction plugin="sitemonitor@0.6">
+      <mResults>
+        <hudson.plugins.sitemonitor.model.Result>
+          <mSite>
+            <mUrl>http://192.168.5.115:8081/IgalNisanDanielNissim/</mUrl>
+            <timeout>30</timeout>
+            <successResponseCodes/>
+            <admitInsecureSslCerts>false</admitInsecureSslCerts>
+          </mSite>
+          <mResponseCode>200</mResponseCode>
+          <mStatus>UP</mStatus>
+          <mNote>[UP] </mNote>
+        </hudson.plugins.sitemonitor.model.Result>
+      </mResults>
+    </hudson.plugins.sitemonitor.SiteMonitorRootAction>
+  </actions>
+  <queueId>72</queueId>
+  <timestamp>1673888100633</timestamp>
+  <startTime>1673888100701</startTime>
+  <result>SUCCESS</result>
+  <duration>66</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/jenkins_home/workspace/monitoring</workspace>
+  <hudsonVersion>2.375</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+</build>
