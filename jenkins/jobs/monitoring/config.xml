@@ -30,7 +30,7 @@
     <hudson.plugins.sitemonitor.SiteMonitorRecorder plugin="sitemonitor@0.6">
       <mSites>
         <hudson.plugins.sitemonitor.model.Site>
-          <mUrl>http://192.168.5.115:8081/IgalNisanDanielNissim/</mUrl>
+          <mUrl>http://192.168.0.144:8081/IgalNisanDanielNissim/</mUrl>
           <timeout>30</timeout>
           <successResponseCodes/>
           <admitInsecureSslCerts>false</admitInsecureSslCerts>

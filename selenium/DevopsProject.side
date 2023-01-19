@@ -2,7 +2,7 @@
   "id": "5fcbbc7a-c0df-4c62-ba1f-e9565b5472f6",
   "version": "2.0",
   "name": "DevopsProject",
-  "url": "http://localhost:3000",
+  "url": "http://localhost:8081/",
   "tests": [{
     "id": "a6c3af49-87e5-4e45-86aa-056af3f352bc",
     "name": "Lol",
@@ -10,7 +10,7 @@
       "id": "72994faf-bbcb-4a8d-a6a7-d9de432642b0",
       "comment": "",
       "command": "open",
-      "target": "/",
+      "target": "/IgalNisanDanielNissim",
       "targets": [],
       "value": ""
     }, {
@@ -109,7 +109,7 @@
       "id": "3d0ad11d-2665-47f8-9686-a4d371068d53",
       "comment": "",
       "command": "assertElementPresent",
-      "target": "css=img[src='ui/checked.png']",
+      "target": "css=img[src='checked.png']",
       "targets": [
         ["css=img", "css:finder"],
         ["xpath=//img[@alt='indicator']", "xpath:img"],
@@ -149,7 +149,7 @@
       "id": "dec021f7-332d-4a0c-999c-db2a8428b1c6",
       "comment": "",
       "command": "assertElementPresent",
-      "target": "css=img[src='ui/rejected.png']",
+      "target": "css=img[src='rejected.png']",
       "targets": [
         ["css=img", "css:finder"],
         ["xpath=//img[@alt='indicator']", "xpath:img"],
@@ -240,6 +240,6 @@
     "timeout": 300,
     "tests": ["a6c3af49-87e5-4e45-86aa-056af3f352bc"]
   }],
-  "urls": ["http://localhost:3000/"],
+  "urls": ["http://localhost:3000/", "http://localhost:8081/"],
   "plugins": []
 }
