@@ -1,18 +1,6 @@
 version: '3.4'
 
 services:
-  datadog:
-    environment: 
-    - DD_API_KEY=16166d90b1e5add6b6165250b6bdbaf68b36d315
-    image: gcr.io/datadoghq/agent
-    ports: 
-    - 8125:8125
-    - 8126:8126
-  selenium:
-    image: selenium/standalone-chrome
-    ports:
-    - 4444:4444
-    - 7900:7900
   tomcat:
     image: tomcat
     ports:
@@ -27,36 +15,4 @@ services:
     volumes:
     - ..\jenkins:/var/jenkins_home
     - ..\tomcat\webapps\IgalNisanDanielNissim:/var/jenkins_home/workspace/PullClient/build
-#  cassandra:
-#    container_name: cassandra
-#    image: cassandra:4.0
-#    environment:
-#      - CASSANDRA_CLUSTER_NAME=FrontLine
-#    volumes:
-#      - C:\DevopsProject\gatling\cassandra:/var/lib/cassandra
-#    networks:
-#      - frontline-network
-#    healthcheck:
-#      test: ["CMD-SHELL", "[ $$(nodetool statusgossip) = running ]"]
-#      interval: 30s
-#      timeout: 10s
-#      retries: 10
-#  frontline:
-#    container_name: frontline
-#    image: gatlingcorp/frontline:1.18.0
-#    ports:
-#      - 10542:10542
-#    networks:
-#      - frontline-network
-#    environment:
-#      - FRONTLINE_CASSANDRA_HOST=cassandra
-#      - FRONTLINE_ENABLE_LOCAL_POOL=true
-#    volumes:
-#      - C:\DevopsProject\gatling\frontline-conf:/opt/frontline/conf
-#      - C:\DevopsProject\gatling\frontline-keys:/opt/frontline/keys
-#    depends_on:
-#      cassandra:
-#        condition: service_healthy
-#networks:
-#  frontline-network:
-#    driver: bridge
+    - ..\selenium:/var/jenkins_home/workspace/RunTests
