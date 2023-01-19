@@ -4,14 +4,14 @@ services:
   tomcat:
     image: tomcat
     ports:
-    - 8888:8888
-    - 8081:8080
+      - 8888:8888
+      - 8081:8080
     volumes:
-    - ..\tomcat\webapps:/usr/local/tomcat/webapps
+      - ..\tomcat\webapps:/usr/local/tomcat/webapps
   jenkins:
     image: jenkins/jenkins
     ports:
-    - 8080:8080
+      - 8082:8080
     volumes:
     - ..\jenkins:/var/jenkins_home
     - ..\tomcat\webapps\IgalNisanDanielNissim:/var/jenkins_home/workspace/PullClient/build
