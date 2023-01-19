@@ -1,8 +1,10 @@
-Started at Tue Jan 17 11:45:54 UTC 2023
+Started at Thu Jan 19 04:17:44 UTC 2023
 Processing BuildClient
 Offering BuildClient to Project Build Discarder
+Processing Gatling
+Offering Gatling to Project Build Discarder
 Processing monitoring
 Offering monitoring to Project Build Discarder
 Processing PullClient
 Offering PullClient to Project Build Discarder
-Finished at Tue Jan 17 11:45:54 UTC 2023. 49ms
+Finished at Thu Jan 19 04:17:44 UTC 2023. 121ms
