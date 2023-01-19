@@ -2,31 +2,32 @@ version: '3.4'
 
 services:
   datadog:
-    environment: 
-    - DD_API_KEY=16166d90b1e5add6b6165250b6bdbaf68b36d315
+    environment:
+      - DD_API_KEY=16166d90b1e5add6b6165250b6bdbaf68b36d315
     image: gcr.io/datadoghq/agent
-    ports: 
-    - 8125:8125
-    - 8126:8126
+    ports:
+      - 8125:8125
+      - 8126:8126
   selenium:
     image: selenium/standalone-chrome
     ports:
-    - 4444:4444
-    - 7900:7900
+      - 4444:4444
+      - 7900:7900
   tomcat:
     image: tomcat
     ports:
-    - 8888:8888
-    - 8081:8080
+      - 8888:8888
+      - 8081:8080
     volumes:
-    - ..\tomcat\webapps:/usr/local/tomcat/webapps
+      - ..\tomcat\webapps:/usr/local/tomcat/webapps
   jenkins:
     image: jenkins/jenkins
     ports:
-    - 8080:8080
+      - 8082:8080
     volumes:
-    - ..\jenkins:/var/jenkins_home
-    - ..\tomcat\webapps\IgalNisanDanielNissim:/var/jenkins_home/workspace/PullClient/build
+      - ..\jenkins:/var/jenkins_home
+      - ..\tomcat\webapps\IgalNisanDanielNissim:/var/jenkins_home/workspace/PullClient/build
+
 #  cassandra:
 #    container_name: cassandra
 #    image: cassandra:4.0
