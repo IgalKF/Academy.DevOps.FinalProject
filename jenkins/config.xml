@@ -3,7 +3,7 @@
   <disabledAdministrativeMonitors>
     <string>jenkins.diagnostics.ControllerExecutorsNoAgents</string>
   </disabledAdministrativeMonitors>
-  <version>2.386</version>
+  <version>2.387</version>
   <numExecutors>2</numExecutors>
   <mode>NORMAL</mode>
   <useSecurity>true</useSecurity>
@@ -72,9 +72,11 @@
           <default>
             <comparator class="java.lang.String$CaseInsensitiveComparator"/>
           </default>
-          <int>1</int>
+          <int>2</int>
           <string>CI</string>
           <string>false</string>
+          <string>DISPLAY</string>
+          <string>0:0</string>
         </tree-map>
       </envVars>
     </hudson.slaves.EnvironmentVariablesNodeProperty>

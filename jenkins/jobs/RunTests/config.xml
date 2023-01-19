@@ -9,13 +9,14 @@
   <disabled>false</disabled>
   <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
   <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <jdk>(System)</jdk>
   <triggers/>
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>npm install -g selenium-side-runner
-npm install -g chromedriver
-selenium-side-runner DevopsProject.side</command>
+      <command>chromedriver --version
+selenium-side-runner -c &quot;goog:chromeOptions.args=[no-sandbox,headless,disable-dev-shm-usage,disable-extensions,disable-gpu,remote-debugging-port=9222]&quot; DevopsProject.side
+</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>

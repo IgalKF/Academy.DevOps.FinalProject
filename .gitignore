@@ -12,6 +12,7 @@ node_modules
 build
 builds
 .cache
+caches
 jenkins/tools
 # misc
 .DS_Store
