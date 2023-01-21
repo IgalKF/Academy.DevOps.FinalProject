@@ -9,10 +9,10 @@ services:
     volumes:
       - ..\tomcat\webapps:/usr/local/tomcat/webapps
   jenkins:
-    image: jenkins/jenkins
+    image: jenkins/jenkins:lts
     user: root
     ports:
-      - 8080:8080
+      - 8082:8080
     volumes:
-    - ..\jenkins:/var/jenkins_home
-    - ..\tomcat\webapps\IgalNisanDanielNissim:/var/jenkins_home/workspace/PullClient/build
+      - ..\jenkins:/var/jenkins_home
+      - ..\tomcat\webapps\IgalNisanDanielNissim:/var/jenkins_home/workspace/PullClient/build
