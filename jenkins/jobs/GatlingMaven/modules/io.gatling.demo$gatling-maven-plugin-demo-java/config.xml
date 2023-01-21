@@ -1,0 +1,47 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<maven2 plugin="maven-plugin@3.20">
+  <actions/>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>false</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <reporters/>
+  <displayName>gatling-maven-plugin-demo-java</displayName>
+  <version>3.9.0</version>
+  <packaging>jar</packaging>
+  <relativePath></relativePath>
+  <dependencies>
+    <dependency>
+      <groupId>io.gatling</groupId>
+      <artifactId>gatling-maven-plugin</artifactId>
+      <version>4.2.9</version>
+      <plugin>true</plugin>
+    </dependency>
+    <dependency>
+      <groupId>io.gatling.highcharts</groupId>
+      <artifactId>gatling-charts-highcharts</artifactId>
+      <version>3.9.0</version>
+      <plugin>false</plugin>
+      <scope>test</scope>
+      <type>jar</type>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-compiler-plugin</artifactId>
+      <version>3.10.1</version>
+      <plugin>true</plugin>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-jar-plugin</artifactId>
+      <version>3.2.2</version>
+      <plugin>true</plugin>
+    </dependency>
+  </dependencies>
+  <children/>
+</maven2>
