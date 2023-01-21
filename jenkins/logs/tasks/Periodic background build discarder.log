@@ -1,12 +1,98 @@
-Started at Thu Jan 19 13:34:56 UTC 2023
+Started at Sat Jan 21 12:42:17 UTC 2023
 Processing BuildClient
 Offering BuildClient to Project Build Discarder
 Processing Gatling
 Offering Gatling to Project Build Discarder
+Processing GatlingMaven
+Offering GatlingMaven to Project Build Discarder
+Processing InstallDependencies
+Offering InstallDependencies to Project Build Discarder
 Processing monitoring
 Offering monitoring to Project Build Discarder
 Processing PullClient
 Offering PullClient to Project Build Discarder
 Processing RunTests
 Offering RunTests to Project Build Discarder
-Finished at Thu Jan 19 13:34:56 UTC 2023. 31ms
+Processing GatlingMaven/io.gatling.demo:gatling-maven-plugin-demo-java
+Offering GatlingMaven/io.gatling.demo:gatling-maven-plugin-demo-java to Project Build Discarder
+Processing GatlingMaven/io.gatling.demo:gatling-maven-plugin-demo-scala
+Offering GatlingMaven/io.gatling.demo:gatling-maven-plugin-demo-scala to Project Build Discarder
+Finished at Sat Jan 21 12:42:18 UTC 2023. 46ms
+Started at Sat Jan 21 13:42:17 UTC 2023
+Processing BuildClient
+Offering BuildClient to Project Build Discarder
+Processing Gatling
+Offering Gatling to Project Build Discarder
+Processing GatlingMaven
+Offering GatlingMaven to Project Build Discarder
+Processing InstallDependencies
+Offering InstallDependencies to Project Build Discarder
+Processing monitoring
+Offering monitoring to Project Build Discarder
+Processing PullClient
+Offering PullClient to Project Build Discarder
+Processing RunTests
+Offering RunTests to Project Build Discarder
+Processing GatlingMaven/io.gatling.demo:gatling-maven-plugin-demo-java
+Offering GatlingMaven/io.gatling.demo:gatling-maven-plugin-demo-java to Project Build Discarder
+Processing GatlingMaven/io.gatling.demo:gatling-maven-plugin-demo-scala
+Offering GatlingMaven/io.gatling.demo:gatling-maven-plugin-demo-scala to Project Build Discarder
+Finished at Sat Jan 21 13:42:18 UTC 2023. 45ms
+Started at Sat Jan 21 15:11:02 UTC 2023
+Processing BuildClient
+Offering BuildClient to Project Build Discarder
+Processing Gatling
+Offering Gatling to Project Build Discarder
+Processing GatlingMaven
+Offering GatlingMaven to Project Build Discarder
+Processing InstallDependencies
+Offering InstallDependencies to Project Build Discarder
+Processing monitoring
+Offering monitoring to Project Build Discarder
+Processing PullClient
+Offering PullClient to Project Build Discarder
+Processing RunTests
+Offering RunTests to Project Build Discarder
+Processing GatlingMaven/io.gatling.demo:gatling-maven-plugin-demo-java
+Offering GatlingMaven/io.gatling.demo:gatling-maven-plugin-demo-java to Project Build Discarder
+Processing GatlingMaven/io.gatling.demo:gatling-maven-plugin-demo-scala
+Offering GatlingMaven/io.gatling.demo:gatling-maven-plugin-demo-scala to Project Build Discarder
+Finished at Sat Jan 21 15:11:03 UTC 2023. 174ms
+Started at Sat Jan 21 16:20:10 UTC 2023
+Processing BuildClient
+Offering BuildClient to Project Build Discarder
+Processing Gatling
+Offering Gatling to Project Build Discarder
+Processing GatlingMaven
+Offering GatlingMaven to Project Build Discarder
+Processing InstallDependencies
+Offering InstallDependencies to Project Build Discarder
+Processing monitoring
+Offering monitoring to Project Build Discarder
+Processing PullClient
+Offering PullClient to Project Build Discarder
+Processing RunTests
+Offering RunTests to Project Build Discarder
+Processing GatlingMaven/io.gatling.demo:gatling-maven-plugin-demo-java
+Offering GatlingMaven/io.gatling.demo:gatling-maven-plugin-demo-java to Project Build Discarder
+Processing GatlingMaven/io.gatling.demo:gatling-maven-plugin-demo-scala
+Offering GatlingMaven/io.gatling.demo:gatling-maven-plugin-demo-scala to Project Build Discarder
+Finished at Sat Jan 21 16:20:11 UTC 2023. 823ms
+Started at Sat Jan 21 16:42:17 UTC 2023
+Processing BuildClient
+Offering BuildClient to Project Build Discarder
+Processing GatlingMaven
+Offering GatlingMaven to Project Build Discarder
+Processing InstallDependencies
+Offering InstallDependencies to Project Build Discarder
+Processing monitoring
+Offering monitoring to Project Build Discarder
+Processing PullClient
+Offering PullClient to Project Build Discarder
+Processing RunTests
+Offering RunTests to Project Build Discarder
+Processing GatlingMaven/io.gatling.demo:gatling-maven-plugin-demo-java
+Offering GatlingMaven/io.gatling.demo:gatling-maven-plugin-demo-java to Project Build Discarder
+Processing GatlingMaven/io.gatling.demo:gatling-maven-plugin-demo-scala
+Offering GatlingMaven/io.gatling.demo:gatling-maven-plugin-demo-scala to Project Build Discarder
+Finished at Sat Jan 21 16:42:18 UTC 2023. 28ms
